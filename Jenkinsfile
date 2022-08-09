@@ -8,9 +8,9 @@ pipeline {
 
         AWS_S3_BUCKET = "noura-belt2d2-artifacts-123456"
         ARTIFACT_NAME = "hello-world.jar"
-        AWS_EB_APP_NAME = "Noura-belt2-Java-Maven application"
+        AWS_EB_APP_NAME = "Noura-belt2-javamaven"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "Nourabelt2javamavenapplication-env"
+        AWS_EB_ENVIRONMENT = "Nourabelt2javamaven-env"
 
         SONAR_IP = "34.207.184.173"
         SONAR_TOKEN = "sqp_580e77bc840bd9fea898de136a0cb06ddd11955d"
